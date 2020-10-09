@@ -1,0 +1,44 @@
+.cardsimple {
+  background-color: #FFBC42;
+  color: #8f2d56;
+  width: 752px;
+  height: 306px;
+  border-radius: 20px;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 68% 32%;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: inherit;
+  margin-bottom: 5px;
+}
+
+.cardsimple:hover {  
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.25));
+  transform: scale(1.01);
+}
+
+.cardsimple__image {
+  grid-row: 1 / 2;
+  width: inherit;
+  height: 208.08px;
+  object-fit: cover;
+}
+
+.cardsimple__info {
+  grid-row: 2 / 3;
+  display: flex;
+  text-align: start;
+  background-color: #FFBC42;
+  width: inherit; /*propiedad para '...'*/
+}
+
+.cardsimple__info--title {
+  width: calc( 100% - 90px );
+  font-size: 36px;
+  margin: 28px 45px;
+  white-space: nowrap; /*propiedad para '...'*/
+  overflow: hidden; /*propiedad para '...'*/
+  text-overflow: ellipsis; /*propiedad para '...'*/
+}

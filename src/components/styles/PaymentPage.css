@@ -1,0 +1,35 @@
+.PaymentPage {
+  color: #ffbc42;
+  margin: 200px 100px;
+}
+
+.PaymentPage__GoToPay{
+  color:#218380;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  height: 250px;
+}
+
+.PaymentPage__GoToPay--detail{
+  font-size: 20px;
+  color:inherit;
+  display: block;
+}
+.PaymentPage__GoToPay--img{
+  height: 40px;
+}
+
+.PaymentPage__ingredients {
+  background-color: #8f2d56;
+  border-radius: 25px;
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 50px;
+  overflow: auto;
+  font-size: 30px;
+}
